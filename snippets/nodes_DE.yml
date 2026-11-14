@@ -18,26 +18,23 @@ proxies:
   server: 23.157.88.43
   type: ss
 - alpn:
-  - h2
-  - h3
-  - http/1.1
-  name: 🇩🇪 德国 | DEU 10
-  network: ws
-  password: X00HagvwL8gQXNDAnsxsN8dv1_VdneEo
-  port: 21443
-  server: 5.59.204.26
+  - ''
+  alterId: 0
+  cipher: auto
+  name: 🇩🇪 德国 | DEU 3
+  port: 26032
+  server: 123466.ru
   skip-cert-verify: true
-  sni: fi1.nebulaguard.org
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
-  ws-opts:
-    headers:
-      Host: fi1.nebulaguard.org
-    path: /trojan/
-- name: '🇩🇪 德国 | DEU #7'
-  password: X00HagvwL8gQXNDAnsxsN8dv1_VdneEo
-  port: 21443
-  server: 5.59.204.26
-  skip-cert-verify: true
-  sni: fi1.nebulaguard.org
-  type: trojan
+  uuid: 804334e2-04ca-434c-8311-3ccee8218175
+- alterId: 0
+  cipher: auto
+  name: '🇩🇪 德国 | DEU #3'
+  network: tcp
+  port: 26032
+  server: 123466.ru
+  tls: false
+  type: vmess
+  uuid: 804334e2-04ca-434c-8311-3ccee8218175
