@@ -6,6 +6,12 @@ proxies:
   server: 198.244.201.129
   type: ss
 - cipher: aes-256-gcm
+  name: '🇬🇧[www.v2nodes.com] ss-GB-1616... #1'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 198.244.202.215
+  type: ss
+- cipher: aes-256-gcm
   name: 🇬🇧[www.v2nodes.com] ss-GB-1615...
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
@@ -30,14 +36,28 @@ proxies:
   server: 94.156.250.148
   type: ss
 - cipher: aes-128-gcm
-  name: 🇬🇧[www.v2nodes.com] ss-GB-9184...
-  password: shadowsocks
-  port: 443
-  server: 141.98.101.181
-  type: ss
-- cipher: aes-128-gcm
   name: 🇬🇧[www.v2nodes.com] ss-GB-8004...
   password: shadowsocks
   port: 443
   server: 141.98.101.178
   type: ss
+- name: 🇬🇧 英国 | GBR
+  network: ws
+  password: 531d9e93-53be-4f05-a9c1-33490d4da2f3
+  port: 443
+  server: eukhost.com
+  skip-cert-verify: true
+  sni: 0o3vr2n5k2.bpuk2026.top
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 0o3vr2n5k2.bpuk2026.top
+    path: /images
+- name: '🇬🇧 英国 | GBR #1'
+  password: 531d9e93-53be-4f05-a9c1-33490d4da2f3
+  port: 443
+  server: eukhost.com
+  skip-cert-verify: true
+  sni: 0o3vr2n5k2.bpuk2026.top
+  type: trojan

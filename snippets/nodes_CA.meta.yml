@@ -1,6 +1,6 @@
 proxies:
 - client-fingerprint: chrome
-  name: '🏳[www.v2nodes.com] vless- #10'
+  name: '🏳[www.v2nodes.com] vless- #8'
   network: ws
   port: 8443
   server: 172.64.154.113
@@ -25,7 +25,7 @@ proxies:
     headers:
       Host: v4-77j.pages.dev
     path: /
-- name: '🇸🇬[www.v2nodes.com] vless-SG-3... #1'
+- name: 🇸🇬[www.v2nodes.com] vless-SG-3...
   network: ws
   port: 8443
   server: 172.64.154.113
@@ -37,20 +37,14 @@ proxies:
     headers:
       Host: freeceshi6.frii.site
     path: /proxyip=ProxyIP.JP.CMLiussss.netfp=chrome
-- name: '🇸🇬[www.v2nodes.com] vless-SG-3... #2'
-  network: ws
-  port: 8080
-  server: www.gov.se
-  servername: www.gov.se
-  tls: false
-  type: vless
-  uuid: 989d58b8-d2ea-4d28-b5ff-0f3cd078f2cf
-  ws-opts:
-    headers:
-      Host: sdf23g-billowing-moon-348e.mzm468gc.workers.dev
-    path: /
 - cipher: aes-256-gcm
   name: 🇨🇦[www.v2nodes.com] ss-CA-1559...
+  password: zDNVedRFPQexG9v
+  port: 445
+  server: 51.222.141.125
+  type: ss
+- cipher: aes-256-gcm
+  name: '🇨🇦[www.v2nodes.com] ss-CA-1559... #1'
   password: cdBIDV42DCwnfIN
   port: 8118
   server: 51.79.85.185
@@ -66,6 +60,12 @@ proxies:
   password: kDWvXYZoTBcGkC4
   port: 8882
   server: 51.222.136.236
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇨🇦[www.v2nodes.com] ss-CA-1546...
+  password: Y6R9pAtvxxzmGC
+  port: 5601
+  server: 51.222.155.113
   type: ss
 - cipher: aes-256-gcm
   name: 🇨🇦[www.v2nodes.com] ss-CA-1538...
